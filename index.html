@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header><H1>TEST</H1></header>
+    <div class="nav_bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+    <main>
+        <div>
+            <h2>1) What is CSS and its types?</h2>
+            <pre>CSS stands for Cascading Style Sheets.
+                It's mainly 3 types.
+                1- Inline CSS: Used inside tags in the HTML file
+                    ex- [h1] style="color:aqua" Heading [/h1]
+                
+                2- Internal CSS: Used inside of HTML file in heading tag.
+                    ex- [style] *{magin: 0, padding:0}
+                
+                3- External CSS: Used outside of the html fileand can be linked useing link tag.
+                    ex- [link rel="stylesheet" href="style.css"]
+            </pre>
+        </div><br>
+        <div>
+            <p>2)Box model: It's used for well structured, and responsive websites.
+                <div class="margin">margin
+                    <div class="border">border
+                        <div class="padding">padding
+                            <div class="content">content</div>
+                        </div>
+                    </div>
+                </div>
+            </p>
+        </div>
+        <div class="circle_square"><p>3) Circle to Square</p></div>
+        <div><p>5) Margin Collapse: when the space between two elements in a webpage becomes the larger of the two margins, it does not add up instead elements overlap.</p></div>
+
+        <div><p>6) div is a block element</p></div><br>
+        <div class="inli">7) Display: inline - Ths property changes the element that may be an block element to inline element. It doesn't start new line instead uses the same line.</div><br><br>
+        <div style="background-color: red; text-align: center;">8(a)) Text-align-center </div>
+        <div style="background-color: rgb(0, 255, 68); text-align: right;">8(b)) Text-align-center </div>
+
+        <br><div>9)<p class="parent9">54px
+            <p class="child9">7em = 54*7= 378px</p>
+        </p></div>
+        <br><div>10) <p class="parent10">24px
+            <p class="child10">7rem = 24*7</p>
+        </p></div>
+
+        <div>11)Botton <div class="boton"><a href="#">Click Me</a></div></div>
+        <br>
+        <div><h1>12)Employee_Table</h1>
+            <table>
+                <thead>
+                    <th>
+                        <td>Name</td>
+                        <td>Contact No.</td>
+                        <td>Email ID</td>
+                        <td>Salary</td>
+                        <td>Joinig Date</td>
+                    </th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>123-456-7890</td>
+                        <td>john@example.com</td>
+                        <td>$50,000</td>
+                        <td>2022-01-15</td>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>123-456-7890</td>
+                        <td>john@example.com</td>
+                        <td>$50,000</td>
+                        <td>2022-01-15</td>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>123-456-7890</td>
+                        <td>john@example.com</td>
+                        <td>$50,000</td>
+                        <td>2022-01-15</td>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>123-456-7890</td>
+                        <td>john@example.com</td>
+                        <td>$50,000</td>
+                        <td>2022-01-15</td>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>123-456-7890</td>
+                        <td>john@example.com</td>
+                        <td>$50,000</td>
+                        <td>2022-01-15</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>13)Header, main footer are child of body-tag</div>
+
+        <div>14) <p> Class: It can be assigned to multiple elements.</p><br><p>ID: It can only be asigned to perticular element that's ID should always be unique</p></div>
+        <br>
+        <div class="square_box" class="square_box2">15)Square Box</div>
+        <br>
+        <div>16) when using an anchor-tag we have to use target="_blank"/"_main" to open the link in a new tab</div>
+        <div><p>17) Padding: Padding is the space between the content of an element and its border. <br> Padding can be set using properties like padding-top, padding-right, padding-bottom, and padding-left, or shorthand with padding.</p> <p> Margin: Margin is the space outside of an element, between the element's border and adjacent elements. <br>Margin can be set using properties like margin-top, margin-right, margin-bottom, and margin-left, or shorthand with margin.</p></div>
+
+        <div>19) <p>em: The em unit is relative to the font size of its parent element. <br> ex- if the font size of a parent element is 16px and font size of a child element is 1.5em, it will be 24px </p><p>rem: The rem unit is relative to the font size of the root (html) element. <br> ex- if the font size of the root element is 16px the font size of an element 1.5rem, it will be 24px</p></div>
+
+        <div class="horizontal">20) For Horizontally aligning an element we can use align-item: center </div>
+        <div class="vertical">20) For vertically aligning an element we can use align-item: center </div>
+
+        <div>21) CSS Selector: It targets specific elements based on ID, class, and type with other elements
+            <br>ex- for p-tag, h1-tag,img-tag, video-tag we use p, h1, img, video in css file. <br>when mentioning ID,name we have to use #, similarly for class we have to use (.).
+        </div>
+
+        <div>22) To include external css in an HTML document we have to use link-tag inside head <br>ex- [link rel="stylesheet" href=""] </div>
+        <div>23) Correct one is -> .body{color: black}</div>
+        <div>24) Correct one is -> h1{background-color: pink}</div>
+        <div>25) Correct one is -> a{text-decoration: none}</div>
+        <div>26) Correct one is -> div p</div>
+        <div>27) Static is the default valu of the position property.</div>
+        <div>28) To hide an element in css we can use [display: none] </div><br>    
+        <div class="gradient">29) background: linear-gradient (to right, red, blue) </div>
+        <br><br><br><br><br>
+        <div class="imagess">30</div>
+    </main>
+</body>
+</html>
